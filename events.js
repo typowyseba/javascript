@@ -14,6 +14,6 @@ function click()
 
 function scroll()
 {
-    document.body.innerHTML += "Scroll count: " + scrollCount;
+    document.body.innerHTML += '<div class="block">x</div>';
     scrollCount ++;
 }

@@ -16,6 +16,7 @@ function click()
 function scroll()
 {
     //document.body.innerHTML += '<div class="block">x</div>';
-    body.innerHTML += '<div class="block">x</div>';
+    //body.innerHTML += '<div class="block">x</div>';
+    body.innerHTML += '<div style="widht: 100px; height: 100px; background: red;">block<div>';
     scrollCount ++;
 }
